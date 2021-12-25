@@ -1,6 +1,7 @@
 .profile_photo {
     position: absolute;
     top: 0;
+    height: 250px;
    left: 300px;
     border-radius: 50%;
     width: 200px;
@@ -9,3 +10,37 @@ h1{
  color:red;
  font-style: italic;
 }
+footer{
+    position:fixed;
+    left:0; bottom: 0px; 
+    display: inline; 
+    background-color: aqua;
+    background-size:contain;
+    padding: 0px;}
+
+.logo{
+ position: relative;   
+ top: 20px;   
+ width: 50px;
+ height: 50px;   
+ margin: 0px 8px 0px 50px ;
+}
+.logo1{
+    position: relative;   
+    top: 10px;   
+    width: 50px;
+    height: 50px;   
+    margin: 0px ;
+   }
+   .English{
+    position: relative;
+   }
+   .psevdofooter{
+       height:50px ;
+   }
+   nav{
+       font-style: italic;
+   }
+   ul{
+       font-style: oblique;
+   }
