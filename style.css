@@ -1,23 +1,27 @@
 .profile_photo {
-    position: absolute;
-    top: 0;
+    float: right;
     height: 250px;
-   left: 1200px;
     border-radius: 50%;
     width: 200px;
+    margin-right: 200px;
+    margin-top:0px;
 }
 h1{
- color:red;
+ width:800px;
+ color:white;
  font-style: italic;
  font-weight: bold;
+ margin-left: auto;
+ margin-right: auto;
 }
 footer{
     position: fixed;
-    display: inline; 
+    bottom: 0;
+    left:0;
     text-align: center;
     background-color: aqua;
-  width: 100%;
-    bottom: 0;
+    width: 100%;
+    
 }
 
 .logo{
@@ -41,6 +45,9 @@ footer{
    .psevdofooter{
        height:50px ;
    }
+ h2{
+     color: rgb(4, 14, 99);
+ }
    nav{
        font-style: italic;
    }
@@ -49,10 +56,15 @@ footer{
    }
   
    main{
-    max-width: 1920px;
-    min-width: 320px;
     margin-left: auto;
     margin-right: auto;
     width: 800px;
-    
-   }
+       }
+    header{
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px; 
+    text-align: left; 
+    background-color:black;
+    }
+   
