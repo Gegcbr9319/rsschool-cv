@@ -2,27 +2,29 @@
     position: absolute;
     top: 0;
     height: 250px;
-   left: 300px;
+   left: 1200px;
     border-radius: 50%;
     width: 200px;
 }
 h1{
  color:red;
  font-style: italic;
+ font-weight: bold;
 }
 footer{
-    position:fixed;
-    left:0; bottom: 0px; 
+    position: fixed;
     display: inline; 
+    text-align: center;
     background-color: aqua;
-    background-size:contain;
-    padding: 0px;}
+  width: 100%;
+    bottom: 0;
+}
 
 .logo{
  position: relative;   
  top: 20px;   
- width: 50px;
- height: 50px;   
+ width: 60px;
+ height: 60px;   
  margin: 0px 8px 0px 50px ;
 }
 .logo1{
@@ -34,6 +36,7 @@ footer{
    }
    .English{
     position: relative;
+    margin-bottom: 80px;
    }
    .psevdofooter{
        height:50px ;
@@ -43,4 +46,13 @@ footer{
    }
    ul{
        font-style: oblique;
+   }
+  
+   main{
+    max-width: 1920px;
+    min-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    
    }
